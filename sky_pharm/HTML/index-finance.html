@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sky pharm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium Bootstrap 5 Landing Page Template" />
+    <meta name="keywords" content="Saas, Software, multi-uses, HTML, Clean, Modern" />
+    <meta name="author" content="Shreethemes" />
+    <meta name="email" content="support@shreethemes.in" />
+    <meta name="website" content="https://shreethemes.in" />
+    <meta name="Version" content="v3.2.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- tobii css -->
+    <link href="css/tobii.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <!-- Slider -->
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <!-- Main Css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
+    <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    
+    <!-- Navbar STart -->
+    <header id="topnav" class="defaultscroll sticky bg-white">
+    <div id="newLogo" style="
+    display: block;
+    width: 100vw;
+    height: 12vw;
+    background-image: url(./images/бланк-01-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    "></div>
+    
+        <div class="container">
+            <!-- Logo container-->
+            <a class="logo" href="index.html">
+                <span class="logo-light-mode">
+                    <img src="images/oben прозрачный.png" class="l-dark" height="60" alt="">
+                    <img src="images/oben прозрачный.png" class="l-light" height="60" alt="">
+                </span>
+                <img src="images/logo-light.png" height="24" class="logo-dark-mode" alt="">
+            </a>
+            <ul class="buy-button list-inline mb-0">
+                <li class="list-inline-item mb-0">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-link text-decoration-none dropdown-toggle p-0 pe-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <!-- <i class="uil uil-search text-muted"></i> -->
+                        </button>
+                        <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 py-0" style="width: 300px;">
+                            <form>
+                                <!-- <input type="text" id="text" name="name" class="form-control border bg-white" placeholder="Search..."> -->
+                            </form>
+                        </div>
+                    </div>
+
+            </ul>
+            <!--end login button-->
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu" id="navmenu-nav">
+                    <li class="has-submenu">
+                        <a href="#home">Главная</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#o-nas">О нас</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#price">Цены</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#otzivy">Отзывы</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#contact">Контакты</a>
+                    </li>
+                </ul>
+                <!--end navigation menu-->
+                <ul class="buy-menu-btn d-none">
+                    <li class="list-inline-item mb-0">
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-link text-decoration-none dropdown-toggle p-0 pe-2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="uil uil-search text-muted"></i>
+                            </button>
+                            <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 py-0" style="width: 240px;">
+                                <form>
+                                    <input type="text" id="text2" name="name" class="form-control border bg-white" placeholder="Search...">
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-inline-item mb-0">
+                        <a href="#" class="btn btn-icon btn-primary"><i class="uil uil-facebook-f icons"></i></a>
+                    </li>
+                    <li class="list-inline-item mb-0">
+                        <a href="#" class="btn btn-icon btn-primary"><i class="uil uil-github icons"></i></a>
+                    </li>
+                    <li class="list-inline-item mb-0">
+                        <a href="#" class="btn btn-icon btn-primary"><i class="uil uil-twitter icons"></i></a>
+                    </li>
+                    <li class="list-inline-item mb-0">
+                        <a href="#" class="btn btn-icon btn-primary"><i class="uil uil-linkedin-alt icons"></i></a>
+                    </li>
+                </ul>
+                <!--end login button-->
+            </div>
+            <!--end navigation-->
+        </div>
+        <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+
+    <!-- Start Hero -->
+    <section  id="home" class="bg-half-260 d-table w-100" data-jarallax='{"speed": 0.5}' style="background:url('images/oDhf1NE14AHTAzx7tCgI.jpeg') top;
+    margin-top: 250px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-heading">
+                        <!-- <div class="alert alert-white alert-pills shadow" role="alert">
+                            <span class="badge rounded-pill bg-primary me-1">Trusted</span>
+                            <span class="content"> Funds held securely and relibly</span>
+                        </div> -->
+                        <h1 class="heading fw-bold mb-3"> SKY PHARM <br><span class="text-primary text-decoration-underline typewrite" data-period="2000" data-type='[ "Гарантия успеха и процветания"]'> <span class="wrap"></span> </span> <br>
+                        </h1>
+                        <p class="para-desc text-muted"> Опыт работы 10 лет в сфере фармацевтического бизнеса</p>
+                        <div class="mt-4 pt-2">
+                            <!-- <a href="javascript:void(0)" class="btn btn-primary">Contact us</a> -->
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- End Hero -->
+
+    <div class="container mt-100 mt-60" >
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="section-title text-center mb-4 pb-2">
+                    <!-- <i class="uil uil-chart-pie-alt text-primary h2"></i> -->
+                    <h4 class="title mt-3 mb-4">Центр фармацевтического образования и консалтинга «СкайФарм» <br> Предлагает пройти обучающий курс на получение профессии </h4>
+                    <h4 class="title mt-3 mb-4">«Медицинский представитель» <br> Новая профессия за 1 месяц</h4>
+                    <p class="text-muted mx-auto para-desc">А самое главное новая профессия за короткий срок не имея медицинского образования <br> Преимущества получения профессии «медицинский представитель» </p>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+
+        <!-- Start Features -->
+        <section class="bg-light">
+            <div class="container-fluid px-0">
+                <div class="row g-0 align-items-center">
+                    <div class="col-xl-3 col-lg-6 col-md-4">
+                        <div class="card features fea-primary text-center rounded-0 px-4 py-5 bg-light bg-gradient position-relative overflow-hidden border-0">
+                            <span class="h2 icon2 text-primary">
+                                <i class="uil uil-crosshair"></i>
+                            </span>
+                            <div class="card-body p-0 content">
+                                <h5>Престижная профессия</h5>
+                                <!-- <p class="para text-muted mb-0">It is a long established fact that a reader will be will be of at its layout.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+
+
+
+                    <div class="col-xl-3 col-lg-6 col-md-4">
+                        <div class="card features fea-primary text-center rounded-0 px-4 py-5 bg-light bg-gradient position-relative overflow-hidden border-0">
+                            <span class="h2 icon2 text-primary">
+                                <i class="uil uil-usd-circle"></i>
+                            </span>
+                            <div class="card-body p-0 content">
+                                <h5>Высокооплачиваемая работа</h5>
+                                <!-- <p class="para text-muted mb-0">It is a long established fact that a reader will be will be of at its layout.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-xl-3 col-lg-4 col-md-4">
+                        <div class="card features fea-primary text-center rounded-0 px-4 py-5 bg-light bg-gradient position-relative overflow-hidden border-0">
+                            <span class="h2 icon2 text-primary">
+                                <i class="uil uil-analytics"></i>
+                            </span>
+                            <div class="card-body p-0 content">
+                                <h5>Стабильный график работы</h5>
+                                <!-- <p class="para text-muted mb-0">It is a long established fact that a reader will be will be of at its layout.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-xl-3 col-lg-4 col-md-4">
+                        <div class="card features fea-primary text-center rounded-0 px-4 py-5 bg-light bg-gradient position-relative overflow-hidden border-0">
+                            <span class="h2 icon2 text-primary">
+                                <i class="uil uil-invoice"></i>
+                            </span>
+                            <div class="card-body p-0 content">
+                                <h5>Социальный пакет и официальное трудоустройство</h5>
+                                <!-- <p class="para text-muted mb-0">It is a long established fact that a reader will be will be of at its layout.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end section-->
+        <!-- End Features -->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-6 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                                <div class="card work-container work-modern overflow-hidden rounded border-0 shadow-md">
+                                    <div class="card-body p-0">
+                                        <img src="images/10.jpeg" class="img-fluid" alt="work-image">
+                                        <div class="overlay-work bg-dark"></div>
+                                        <div class="content">
+                                            <a href="javascript:void(0)" class="title text-white d-block fw-bold"></a>
+                                            <small class="text-light"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--end col-->
+
+                            <div class="col-lg-6 col-6">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                                        <div class="card work-container work-modern overflow-hidden rounded border-0 shadow-md">
+                                            <div class="card-body p-0">
+                                                <img src="images/11.jpeg" class="img-fluid" alt="work-image">
+                                                <div class="overlay-work bg-dark"></div>
+                                                <div class="content">
+                                                    <a href="javascript:void(0)" class="title text-white d-block fw-bold"></a>
+                                                    <small class="text-light"></small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end col-->
+
+                                    <div class="col-lg-12 col-md-12 mt-4 pt-2">
+                                        <div class="card work-container work-modern overflow-hidden rounded border-0 shadow-md">
+                                            <div class="card-body p-0">
+                                                <img src="images/13.jpeg" class="img-fluid" alt="work-image">
+                                                <div class="overlay-work bg-dark"></div>
+                                                <div class="content">
+                                                    <a href="javascript:void(0)" class="title text-white d-block fw-bold"></a>
+                                                    <small class="text-light"></small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end col-->
+                                </div>
+                                <!--end row-->
+                            </div>
+                            <!--end col-->
+                        </div>
+                        <!--end row-->
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-lg-7 col-md-6 mt-4 mt-lg-0 pt- pt-lg-0" id="price">
+                        <div class="ms-lg-4">
+                            <div class="section-title">
+
+
+                                <!-- <span class="badge bg-soft-primary rounded-pill fw-bold">About us</span> -->
+                                <h4 class="title mb-4 mt-3"> Если вы хотите: </h4>
+
+                                <ul class="list-unstyled text-muted">
+                                    <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>получить новую высокооплачиваемую профессию за короткий срок, найти без труда работу после окончания курсов и работать в сфере
+                                        фармацевтических продаж <span class="text-primary fw-bold">то эти курсы именно для тебя</span><br>Всегда есть свободные вакансии, заработная плата от 30000 сом до 100000 сом </li>
+
+
+                                    <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Если ты устал работать в сложных условиях труда с ненормированным графиком и низкой зарплатой,
+                                        <span class="text-primary fw-bold">то эти курсы именно для тебя</span><br>График работы с 9 до 6, выходные и праздничные дни, высокая зарплата, соц. пакет</li>
+
+                                    <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>За короткий срок ты можешь получить престижную профессию с получением сертификата и легко трудоустроится</li>
+                                    <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Высококвалифицированное преподаватели <br> Преподавательский состав: основатели фарм. Компаний, эксперты в области медицины
+                                        и фармацевтики, фармацевты, сотрудники которые начали свою карьеру с мед. представителя, а в данный момент занемеют топовые должности в крупных компаниях
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="mt-4 pt-2">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+
+            <div class="col-lg-12 text-center col-md-4 mt-4 pt-2">
+                <a href="javascript:void(0)" class="btn btn-primary">Заказать курс <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+            </div>
+            <!--end col-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+
+                            <h4 class="title mt-3 mb-4">Для кого эти курсы </h4>
+                            <p class="text-muted mx-auto para-desc"> Для всех тех, кто хочет получить респектабельную профессию за короткий срок
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <div class="features mt-5">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-edit-alt h1 text-primary"></i>
+                            </div>
+
+                            <div class="content mt-4">
+                                <h5>студенты любых вузов</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-md-4 col-12 mt-5">
+                        <div class="features">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-vector-square h1 text-primary"></i>
+                            </div>
+
+                            <div class="content mt-4">
+                                <h5>выпускники вузов, колледжа, и даже выпускники школ</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-md-4 col-12 mt-5">
+                        <div class="features">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-file-search-alt h1 text-primary"></i>
+                            </div>
+
+                            <div class="content mt-4">
+                                <h5>для тех, кто хочет поменять род деятельности</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                    <div class="col-md-4 col-12 mt-5">
+                        <div class="features">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-airplay h1 text-primary"></i>
+                            </div>
+
+                            <div class="content mt-4">
+                                <h5>фармацевтов и врачей</h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-md-4 col-12 mt-5">
+                        <div class="features">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-calendar-alt h1 text-primary"></i>
+                            </div>
+
+                            <div class="content mt-4">
+                                <h5>и всех тех, кто хочет изменить свою жизнь к лучшему
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+
+                    <div class="col-md-4 col-12 mt-5">
+                        <div class="features">
+                            <div class="image position-relative d-inline-block">
+                                <i class="uil uil-clock h1 text-primary"></i>
+                            </div>
+
+                            <div class="content mt-4">
+                                <h5>торговых агентов и людей, работающих в сфере обслуживания
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end section-->
+        <!-- End feature -->
+
+        <div class="col-lg-12 text-center col-md-4 mt-4 pt-2">
+            <a href="javascript:void(0)" class="btn btn-primary">Пройти обучение <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+        </div>
+        <!--end col-->
+        <div>
+            <p>
+            </p>
+        </div>
+
+        <!-- CTA Start -->
+        <section class="section bg-cta" data-jarallax='{"speed": 0.5}' style="background: url('images/medicina.jpeg') center center;" id="cta">
+            <div class="bg"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title">
+                            <!-- <h4 class="title title-dark text-white mb-4">Stop leaving money on the table.</h4> -->
+                            <!-- <p class="text-light para-dark para-desc mx-auto">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p> -->
+                            <!-- <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="play-btn border border-light mt-4 lightbox"> -->
+                            <!-- <i data-feather="play" class="fea icon-ex-md text-white title-dark"></i> -->
+                            </a>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end section-->
+        <!-- CTA End -->
+
+        <div class="container mt-100 mt-60">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="section-title text-center mb-4 pb-2">
+                        <h4 class="title mb-4">
+                            Преподаватели курса
+                        </h4>
+
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                    <div class="card team text-center border-0">
+                        <div class="position-relative">
+                            <img src="images/client/01.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
+                            <!-- <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                            </ul> -->
+                            <!--end icon-->
+                        </div>
+                        <div class="card-body py-3 px-0 content">
+                            <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark"> Фахразиев Руслан Фанильевич</a></h5>
+                            <p class="text-muted para-desc mx-auto mb-0">Врач уролог андролог, Основатель фармацевтической компании, эксперт в сфере нутрицевтических и растительных препаратов, научный сотрудник КРСУ</p>
+                            <!-- <small class="designation text-muted">C.E.O</small> -->
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                    <div class="card team text-center border-0">
+                        <div class="position-relative">
+                            <img src="images/client/04.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
+                            <!-- <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                            </ul> -->
+                            <!--end icon-->
+                        </div>
+                        <div class="card-body py-3 px-0 content">
+                            <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark"> Гарашина Светлана Владимировна</a></h5>
+                            <!-- <small class="designation text-muted">Director</small> -->
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                    <div class="card team text-center border-0">
+                        <div class="position-relative">
+                            <img src="images/client/02.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
+                            <!-- <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                            </ul> -->
+                            <!--end icon-->
+                        </div>
+                        <div class="card-body py-3 px-0 content">
+                            <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Рахимдинова Наргиза Бейшеналиевна</a></h5>
+                            <!-- <small class="designation text-muted">Manager</small> -->
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                    <div class="card team text-center border-0">
+                        <div class="position-relative">
+                            <img src="images/client/03.jpg" class="img-fluid avatar avatar-ex-large rounded-circle shadow" alt="">
+                            <!-- <ul class="list-unstyled social-icon team-icon mb-0 mt-4">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                            </ul> -->
+                            <!--end icon-->
+                        </div>
+                        <div class="card-body py-3 px-0 content">
+                            <h5 class="mb-0"><a href="javascript:void(0)" class="name text-dark">Жихарев Евгений Юрьевич</a></h5>
+                            <p class="text-muted para-desc mx-auto mb-0">
+                                <p class="text-muted para-desc mx-auto mb-0">Врач уролог андролог, Основатель фармацевтической компании, эксперт в сфере нутрицевтических и растительных препаратов, научный сотрудник КРСУ</p>
+                            </p>
+                            <!-- <small class="designation text-muted">Developer</small> -->
+                        </div>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+        </section>
+        <!--end section-->
+
+
+        <!-- ======
+        ===========================
+     ==============================================================
+       ================================================================================== -->
+
+        <section style="height: 80%; width: 100vw;" class="container mt-50 position-relative">
+            <img width="100%" height="100%" src="./images/postPhoto/New 1-0.png" alt="">
+            <h2 class="aboutUs position-absolute left-10">О НАС</h2>
+            <h4 class="course position-absolute left-10">МЫ ГОТОВИМ ДЛЯ ВАС <br> НОВЫЙ КУРС <br> ДЛЯ ОБРЕТЕНИЯ <br> НОВОЙ ПРОФЕССИИ</h4>
+        </section>
+
+        <section style="height: 80%; width: 100vw;" class="container mt-50 position-relative">
+            <img width="100%" height="100%" src="./images/postPhoto/new 2-0.png" alt="">
+            <h4 class=" tired position-absolute">устал много работать? <br> не хватает ни на что времени? <br> живешь от зарплаты, до зарплаты?</h4>
+            <h2 class="green-text position-absolute">РЕШЕНИЕ ЕСТЬ!</h2>
+            <h4 class="our-site position-absolute">следи за нашей страницей</h4>
+        </section>
+
+        <section style="height: 80%; width: 100vw; margin-top: 25%;" class="container position-relative">
+            <img width="100%" height="100%" src="./images/postPhoto/new 3-0.png" alt="">
+            <img width="40%" height="13%" class="new-logo position-absolute" src="./images/postPhoto/Слой 1@1X.png" alt="">
+            <div class="typewriter">
+                <h1 class="soon position-absolute" >
+                    <a href="" class="typewriter" data-period="2500" data-type='["ОЧЕНЬ СКОРО..."]'>
+                      <span class="wrap1"></span>
+                    </a>
+                  </h1>
+                <!-- <h1 class="soon position-absolute" >ОЧЕНЬ СКОРО...</h1> -->
+            </div>
+            <h4 class="course-start position-absolute">до старта курса <br> остались считанные дни</h4>
+            
+            <div class="buttons position-absolute">
+                <button class="blob-btn">
+                  Записаться на курсы
+                  <span class="blob-btn__inner">
+                    <span class="blob-btn__blobs">
+                      <span class="blob-btn__blob"></span>
+                      <span class="blob-btn__blob"></span>
+                      <span class="blob-btn__blob"></span>
+                      <span class="blob-btn__blob"></span>
+                    </span>
+                  </span>
+                </button>
+                <br/>
+              
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                  <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                    <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                  </filter>
+                </defs>
+              </svg>
+        </section>
+
+        <section style="height: 80%; width: 100vw;" class="container mt-100 position-relative">
+            <img  width="100%" height="100%" src="./images/postPhoto/new 4-0.png" alt="">
+            <h1 class="med">КУРС МЕДИЦИНСКИЙ <br> ПРЕДСТАВИТЕЛЬ</h1>
+            <h4 class="kyr">ПЕРВЫЕ В КЫРГЫЗСТАНЕ <br> НАЧИНАЕТСЯ ОБРАЗОВАТЕЛЬНЫЙ КУРС <br> "МЕДИЦИНСКИЙ ПРЕДСТАВИТЕЛЬ"</h4>
+            <div class="emblem position-absolute">
+
+                <img width="70%" height="70%" src="./images/postPhoto/Слой 1@1X.png" alt="">
+            </div>
+        </section>
+
+
+
+        <div class="container-circle">
+	
+            <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+                 <circle cx="170" cy="170" r="160" stroke="#5F8FC5"/>
+                 <circle cx="170" cy="170" r="135" stroke="#5F8FC5"/>
+                 <circle cx="170" cy="170" r="110" stroke="#5F8FC5"/>
+                 <!-- <circle cx="170" cy="170" r="85" stroke="#5F8FC5"/> -->
+            </svg>
+            
+        </div>
+
+
+        <div class="container mt-100 mt-60" id="o-nas">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <img src="images/16.jpeg" class="img-fluid" alt="">
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title ms-lg-5">
+                        <h4 class="title mb-4">
+                            Регистрационные услуги</h4>
+
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Регистрация Лекарственных средств на территории КР</li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Регистрация БАД на территории ЕАС (анализ и подготовка документов, проведения лабораторных исследований, экспертных заключений и научного
+                                отчета только в аккредитованных лабораториях) </li>
+
+                        </ul>
+                        <!-- <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i class="uil uil-angle-right-b"></i></a> -->
+                        <p class="text-muted">Наши специалисты окажут Вам квалифицированную помощь в оформлении документов и прохождении процедуры государственной регистрации Биологически Активных Добавок (БАД) и в получении РУ на Лекарственные средства.
+                        </p>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+
+        <div class="container mt-100 mt-60">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title me-lg-5">
+                        <h4 class="title mb-4">Агентские услуги
+                        </h4>
+                        <!-- <p class="text-muted">This prevents repetitive patterns from impairing the overall visual impression and facilitates the comparison of different typefaces. Furthermore, it is advantageous when the dummy text is relatively realistic.</p> -->
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Аутсорсинг представительства </li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Анализ рынка (анализ по конкурентам, продуктам, топ продаж ЛС, БАД на территории КР)</li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Помощь в создании БАД и возможности регистрации
+                            </li>
+                        </ul>
+                        <!-- <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i class="uil uil-angle-right-b"></i></a> -->
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-5 col-md-6 order-1 order-md-2">
+                    <img src="images/17.jpeg" class="img-fluid" alt="">
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+        </section>
+        <!--end section-->
+        <!-- End -->
+
+
+        <div class="container mt-100 mt-60">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <img src="images/18.jpeg" class="img-fluid" alt="">
+                </div>
+                <!--end col-->
+                <div class="col-lg-6 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title ms-lg-5">
+                        <h4 class="title mb-4">
+                            Маркетинг</h4>
+
+                        <p class="text-muted">Вывод на рынок продукции без проведения анализа рынка, анализа бизнеса, ряда маркетинговых исследований и общей маркетинговой стратегии обречено на провал. Правильное планирование обеспечивает 90% успеха! Крайне важно предоставить
+                            для своей продукции не только уникальные характеристики, реальные конкурентные преимущества, но и создать яркий бренд, успешный и надежный имидж с помощью маркетинговых инструментов.
+
+                        </p>
+
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Подбор и обучение с «0» сотрудников (медицинских представителей)</li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Структура введения фармацевтического бизнеса </li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Разработка рекламной стратегии </li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Брендинг </li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Профессиональный перевод и дизайн маркетинговых материалов </li>
+
+                        </ul>
+                        <!-- <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i class="uil uil-angle-right-b"></i></a> -->
+
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+
+        <div class="container mt-100 mt-60">
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <div class="section-title me-lg-5">
+                        <h4 class="title mb-4">VIP
+                            <p class="text-muted">Бизнес с «0» </p>
+
+                        </h4>
+                        <!-- <p class="text-muted">This prevents repetitive patterns from impairing the overall visual impression and facilitates the comparison of different typefaces. Furthermore, it is advantageous when the dummy text is relatively realistic.</p> -->
+                        <ul class="list-unstyled text-muted">
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Разработка и подготовка продукции БАД, нутрицевтических, растительных препаратов и вывод на рынок уже готового продукта. </li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Предоставление Бизнес плана</li>
+                            <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Помощь в создании БАД и возможности регистрации
+                            </li>
+                        </ul>
+                        <!-- <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i class="uil uil-angle-right-b"></i></a> -->
+                    </div>
+                </div>
+                <!--end col-->
+                <div class="col-lg-5 col-md-6 order-1 order-md-2">
+                    <img src="images/19.jpeg" class="img-fluid" alt="">
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+        </section>
+        <!--end section-->
+        <!-- End -->
+
+        <div class="col-lg-12 text-center col-md-4 mt-4 pt-2" id="contact">
+            <a href="javascript:void(0)" class="btn btn-primary">Задать вопрос <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+        </div>
+        <!--end col-->
+
+        <div>
+            <p>
+
+            </p>
+        </div>
+
+
+
+
+
+        <div class="row align-items-center" >
+            <div class="col-lg-5 col-md-6 mt-4 pt-2 order-2 order-md-1">
+                <div class="card rounded shadow border-0" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card-body">
+                        <div class="custom-form bg-white">
+                            <div id="message"></div>
+                            <form method="post" action="php/contact.php" name="contact-form" id="contact-form">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Ваше имя <span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="user" class="fea icon-sm icons"></i>
+                                                <input name="name" id="name" type="text" class="form-control ps-5" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end col-->
+                                    <div class="col-lg-6">
+                                        <div class="mb-3">
+                                            <label class="form-label">Ваша почта <span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                <input name="email" id="email2" type="email" class="form-control ps-5" placeholder="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end col-->
+                                    <div class="col-lg-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Комментарии</label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="message-circle" class="fea icon-sm icons"></i>
+                                                <textarea name="comments" id="comments" rows="4" class="form-control ps-5" placeholder=""></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--end row-->
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <div class="d-grid">
+                                            <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary" value="Отправить сообщение">
+                                            <div id="simple-msg"></div>
+                                        </div>
+                                    </div>
+                                    <!--end col-->
+                                </div>
+                                <!--end row-->
+                            </form>
+                            <!--end form-->
+                        </div>
+                        <!--end custom-form-->
+                    </div>
+                </div>
+            </div>
+            <!--end col-->
+
+            <div class="col-lg-7 col-md-6 mt-4 pt-2 order-1 order-md-2">
+                <div class="title-heading ms-lg-4">
+                    <h4 class="mb-4" data-aos="fade-up" data-aos-duration="1000">Контакты:</h4>
+                    <!-- <p class="text-muted" data-aos="fade-up" data-aos-duration="1400">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p> -->
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body p-0">
+                            <div class="contact-detail d-flex align-items-center mt-3" data-aos="fade-up" data-aos-duration="1200">
+                                <div class="icon">
+                                    <i data-feather="mail" class="fea icon-m-md text-dark me-3"></i>
+                                </div>
+                                <div class="content overflow-hidden d-block">
+                                    <h6 class="fw-bold mb-0">Email</h6>
+                                    <a href="mailto:contact@example.com" class="text-primary">medicina312@mail.ru </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body p-0">
+                            <div class="contact-detail d-flex align-items-center mt-3" data-aos="fade-up" data-aos-duration="1400">
+                                <div class="icon">
+                                    <i data-feather="phone" class="fea icon-m-md text-dark me-3"></i>
+                                </div>
+                                <div class="content overflow-hidden d-block">
+                                    <h6 class="fw-bold mb-0">Телефоны:</h6>
+                                    <a href="tel:+152534-468-854" class="text-primary">+996(555)791179; +996(777)003 003</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card border-0 bg-transparent" id="otzivy">
+                        <div class="card-body p-0">
+                            <div class="contact-detail d-flex align-items-center mt-3" data-aos="fade-up" data-aos-duration="1600">
+                                <div class="icon">
+                                    <i data-feather="map-pin" class="fea icon-m-md text-dark me-3"></i>
+                                </div>
+                                <div class="content overflow-hidden d-block">
+                                    <h6 class="fw-bold mb-0">Адрес</h6>
+                                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
+                                        data-type="iframe" class="video-play-icon text-primary lightbox"> Орозбекова 119</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+    </div>
+    <!--end contact-->
+    <div class="container-fluid mt-100 mt-60">
+        <div class="row">
+            <div class="col-12 p-0">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.371594645297!2d74.60149471485175!3d42.8861061097114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7e5993108cf%3A0xd426cc363a2eac62!2s119%20Orozbekov%20St%2C%20Bishkek!5e0!3m2!1sen!2skg!4v1631947058636!5m2!1sen!2skg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- Contact End -->
+    <!-- Back to top -->
+    <a href="#" onclick="topFunction()" id="back-to-top" class="btn btn-icon btn-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+    <!-- Back to top -->
+
+
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- SLIDER -->
+    <script src="js/tiny-slider.js "></script>
+    <!-- tobii js -->
+    <script src="js/tobii.min.js "></script>
+    <!-- Parallax -->
+    <script src="js/parallax.js "></script>
+    <!-- Icons -->
+    <script src="js/feather.min.js"></script>
+    <!-- Main Js -->
+    <script src="js/plugins.init.js"></script>
+    <!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+    <script src="js/app.js"></script>
+    <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+</body>
+
+</html>
